@@ -1,0 +1,26 @@
+{
+  "name": "untouchables-testnet",
+  "version": "1.0.0",
+  "description": "A browser-based multiplayer game",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "webgl",
+    "physics"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "colyseus.js": "^0.15.9",
+    "express": "^4.17.1",
+    "playcanvas": "^1.63.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}

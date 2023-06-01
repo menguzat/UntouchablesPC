@@ -1,0 +1,23 @@
+/project-root
+|-- /node_modules
+|-- /src
+|   |-- /client
+|   |   |-- /assets
+|   |   |-- /scripts
+|   |   |   |-- /entities
+|   |   |   |   |-- car.ts
+|   |   |   |   |-- power.ts
+|   |   |   |-- /network
+|   |   |   |   |-- photon.ts
+|   |   |   |-- /physics
+|   |   |   |   |-- physics.ts
+|   |   |   |-- /utils
+|   |   |   |   |-- cooldown.ts
+|   |   |   |-- main.ts
+|   |   |-- index.html
+|   |-- /server
+|   |   |-- /scripts
+|   |   |   |-- server.ts
+|   |-- app.ts
+|-- package.json
+|-- tsconfig.json
