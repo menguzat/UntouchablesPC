@@ -18,7 +18,8 @@
   "dependencies": {
     "colyseus.js": "^0.15.9",
     "express": "^4.17.1",
-    "playcanvas": "^1.63.4"
+    "playcanvas": "^1.63.4",
+    "agora-rtc-sdk-ng": "^4.17.2"
   },
   "devDependencies": {
     "typescript": "^4.5.2"

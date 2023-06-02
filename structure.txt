@@ -1,23 +1,26 @@
-/project-root
-|-- /node_modules
-|-- /src
-|   |-- /client
-|   |   |-- /assets
-|   |   |-- /scripts
-|   |   |   |-- /entities
-|   |   |   |   |-- car.ts
-|   |   |   |   |-- power.ts
-|   |   |   |-- /network
-|   |   |   |   |-- photon.ts
-|   |   |   |-- /physics
-|   |   |   |   |-- physics.ts
-|   |   |   |-- /utils
-|   |   |   |   |-- cooldown.ts
-|   |   |   |-- main.ts
-|   |   |-- index.html
-|   |-- /server
-|   |   |-- /scripts
-|   |   |   |-- server.ts
-|   |-- app.ts
-|-- package.json
-|-- tsconfig.json
+/
+├─ src/
+│  ├─ assets/
+│  │  ├─ models/
+│  │  │  ├─ carModel.ts
+│  │  │  └─ platformModel.ts
+│  │  ├─ particles/
+│  │  │  └─ particleEffects.ts
+│  │  └─ audio/
+│  │     └─ voiceChat.ts
+│  ├─ client/
+│  │  ├─ game.ts
+│  │  ├─ player.ts
+│  │  ├─ car.ts
+│  │  ├─ specialPowers.ts
+│  │  └─ UI.ts
+│  ├─ server/
+│  │  ├─ gameServer.ts
+│  │  ├─ room.ts
+│  │  └─ stateSync.ts
+│  └─ physics/
+│     └─ physicsEngine.ts
+├─ public/
+│  └─ index.html
+├─ package.json
+└─ tsconfig.json
